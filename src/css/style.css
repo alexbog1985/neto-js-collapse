@@ -11,6 +11,16 @@
   line-height: 1.5;
 }
 
+.collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.collapse.show {
+  overflow: hidden;
+}
+
 .btn {
   cursor: pointer;
   border: none;
